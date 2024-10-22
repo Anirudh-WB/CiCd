@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCd.API", "CiCd.API\CiCd.API.csproj", "{065D48D5-792F-40C9-82D8-FBA7133BFCE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCd.Tests", "CiCd.Tests\CiCd.Tests.csproj", "{96E39254-AAA8-430F-83C4-3E7B470DA1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065D48D5-792F-40C9-82D8-FBA7133BFCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065D48D5-792F-40C9-82D8-FBA7133BFCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065D48D5-792F-40C9-82D8-FBA7133BFCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065D48D5-792F-40C9-82D8-FBA7133BFCE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E39254-AAA8-430F-83C4-3E7B470DA1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E39254-AAA8-430F-83C4-3E7B470DA1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E39254-AAA8-430F-83C4-3E7B470DA1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E39254-AAA8-430F-83C4-3E7B470DA1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB8AEE4B-9D66-44E9-B229-F10759F15670}
+	EndGlobalSection
+EndGlobal
