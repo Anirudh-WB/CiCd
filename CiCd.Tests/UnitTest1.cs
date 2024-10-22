@@ -11,5 +11,13 @@ namespace CiCd.Tests
             var result = controller.GetSum(2, 3);
             Assert.Equal(5, result);
         }
+
+        [Fact]
+        public void TestDiff()
+        {
+            var controller = new WeatherForecastController();
+            var result = controller.GetSum(3, 2);
+            Assert.Equal(1, result);
+        }
     }
 }

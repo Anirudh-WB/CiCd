@@ -11,5 +11,11 @@ namespace CiCd.API.Controllers
         {
             return a + b;
         }
+
+        [HttpGet("diff/{a}/{b}")]
+        public int GetDiff(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
