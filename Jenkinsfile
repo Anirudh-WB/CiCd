@@ -51,6 +51,13 @@ pipeline {
             }
         }
 
+        stage('Minikube Setup') {
+            bat 'kubectl config use-context minikube'
+
+            bat 'kubectl delete deployment weatherapi-deployment --ignore-not-found=true'
+            bat 'kubectl delete service weatherapi-service --ignore-not-found=true'
+        }
+
         stage('Kubernetes Deployment') {
             steps {
                 bat 'kubectl apply -f deployment.yaml'
