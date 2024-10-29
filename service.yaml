@@ -7,7 +7,7 @@ spec:
     app: weatherapi
   ports:
     - protocol: TCP
-      port: 5000
-      targetPort: 5000
-      nodePort: 30080    # Specify a static port for NodePort
+      port: 8080
+      targetPort: 8080
+      nodePort: 30001    # Specify a static port for NodePort
   type: NodePort        # Change the service type to NodePort
