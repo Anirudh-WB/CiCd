@@ -50,5 +50,17 @@ pipeline {
                 }
             }
         }
+
+        stage('Kubernetes Deployment') {
+            steps {
+                bat 'kubectl apply -f deployment.yaml'
+            }
+        }
+
+        stage('Kubernetes Services') {
+            steps {
+                bat 'kubectl apply -f service.yaml'
+            }
+        }
     }
 }
